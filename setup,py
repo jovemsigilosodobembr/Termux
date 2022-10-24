@@ -1,0 +1,77 @@
+import os
+import time
+
+
+os.system('cls||clear')
+time.sleep(1)
+
+def banner():
+    print('''\033[33m
+    
+===================================    
+ _                                 
+| |                                
+| |_ ___ _ __ _ __ ___  _   ___  __
+| __/ _ \ '__| '_ ` _ \| | | \ \/ /
+| ||  __/ |  | | | | | | |_| |>  < 
+ \__\___|_|  |_| |_| |_|\__,_/_/\_\
+                                   
+ ===================================
+
+          ===============
+          = Gilmar Filho =
+        =================
+Espero ter te ajudado com esse script\033[m''')
+banner()
+print('\n')
+menu = 0
+while menu != 7:
+    menu = int(input(('''
+    [ 1 ] OSINT
+    [ 2 ] Dependencies Gem 
+    [ 3 ] Sqlmap 
+    [ 4 ] Zphisher 
+    [ 5 ] Distros Linux, Ubuntu etc.
+    [ 6 ] Hasher
+    [ 7 ] Sair 
+    
+    Coloque a opção desejada: ''')))
+    if menu == 1:
+     os.system('cls||clear')
+     os.system('apt- update && apt-get upgrade -y && curl -LO https://github.com/jovemsigilosodobembr/osint')  
+     print('\n')
+    
+    if menu == 2:
+     os.system('cls||clear')
+     os.system('gem install bundle')
+    if menu == 3:
+     os.system('cls||clear')
+     os.system('apt update && apt upgrade && pkg install python2 && pkg install git && git clone https://github.com/sqlmapproject/sqlmap')
+     print('\n')
+     print('Digite o comando a seguir: cd sqlmap')
+     print('python2 sqlmap.py')
+    if menu == 4:
+     os.system('cls||clear')
+     os.system('apt update && apt upgrade && apt install git php openssh curl -y && pkg install git && git clone https://github.com/htr-tech/zphisher')
+     print('\n')
+     print('Digite o comando a seguir: cd zphisher.sh')
+     print('chmod +x zphisher.sh') 
+     print('bash zphisher.sh')
+    if menu == 5:
+     os.system('cls||clear')
+     os.system('apt update && apt upgrade && pkg install proot-distro')
+     print('\n')
+     print('Digites os comandos a seguir: proot-distro list [escolha a distro] ')
+     print('proot-distro install *nome da distro*')
+    if menu == 6:
+     os.system('cls||clear')
+     os.system('apt update && apt upgrade && pkg install python2 && pkg install git && git clone https://github.com/ciku370/hasher')
+     print('\n')
+     print('Digites os comandos a seguir: cd hasher ')
+     print('python2 hash.py')
+    elif menu == 7:
+     print('Byee')
+     time.sleep(2)
+     os.system('cls||clear')
+    
+    
