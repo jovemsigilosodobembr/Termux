@@ -62,11 +62,6 @@ while menu != 7:
      print('chmod +x zphisher.sh') 
      print('bash zphisher.sh')
   
-     if menu == 5:
-     os.system('cls||clear')
-     os.system('git clone https://github.com/jovemsigilosodobembr/Banner-Termux')
-    
-    if menu == 6:
      os.system('cls||clear')
      os.system('apt update && apt upgrade && pkg install python2 && pkg install git && git clone https://github.com/ciku370/hasher')
      print('\n')
