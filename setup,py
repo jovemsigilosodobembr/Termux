@@ -31,8 +31,8 @@ print('\n')
 menu = 0
 while menu != 7:
     menu = int(input(('''
-    [ 1 ] OSINT
-    [ 2 ] Dependencies Gem 
+    [ 1 ] Termux debian
+    [ 2 ] Proprio termux
     [ 3 ] Sqlmap 
     [ 4 ] Zphisher 
     [ 5 ] Banner
@@ -41,8 +41,21 @@ while menu != 7:
     
     Coloque a opção desejada: ''')))
     if menu == 1:
-     os.system('cls||clear')
-     os.system('apt- update && apt-get upgrade -y && curl -LO https://github.com/jovemsigilosodobembr/osint')  
+   print("Autualizando os repostitorio")
+    os.system("apt update")
+    os.system("apt upgrade")
+    
+    print("Instalando as dependicias")
+    
+    os.system('apt install git')
+    os.system("apt get install")
+    
+    print("Instalando o python")
+    
+    os.system("apt-get install python")
+    os.system("apt-get install python2")
+    os.system("apt-get install python3")
+    
      print('\n')
     
     if menu == 2:
