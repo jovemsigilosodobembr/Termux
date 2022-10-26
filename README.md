@@ -28,3 +28,5 @@ python3 setup.py
 
  <details>
   <summary><h3>💻Video de como configurar scrypt</h3></summary>
+
+Vazio
