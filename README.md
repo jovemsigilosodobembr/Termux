@@ -8,7 +8,7 @@ Esse scrypt termux, é feito na linguagem "PYTHON"
  <details>
   <summary><h3>💻Como obter o termux</h3></summary>
 
-https://f-droid.org/
+site:⏩ https://f-droid.org/ ⏪ 
 
 <h3><p align="center">TERMUX</p></h3>
 
@@ -20,5 +20,6 @@ https://f-droid.org/
   
 ```
 git clone https://github.com/jovemsigilosodobembr/Termux
+python3 setup.py
 ```
 
