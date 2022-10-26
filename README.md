@@ -23,3 +23,8 @@ git clone https://github.com/jovemsigilosodobembr/Termux
 python3 setup.py
 ```
 
+<h3><p align="center">EMBREVE MAIS DESCRIÇÃO</p></h3>
+
+
+ <details>
+  <summary><h3>💻Video de como configurar scrypt</h3></summary>
