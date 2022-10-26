@@ -3,7 +3,7 @@
  <details>
   <summary><h3>Contenue Lendo💻</h3></summary>
 
-ola
+Esse scrypt termux, é feito na linguagem "PYTHON"
 
 
 <h3><p align="center">TERMUX</p></h3>
