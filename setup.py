@@ -1,8 +1,4 @@
-import os
-
-
-
-
+import os, time 
 
 PURPLE="\033[1;35m"
 RED='\033[1;31m'
@@ -42,29 +38,22 @@ while menu != 7:
     
     if menu == 1:
     os.system('apt update')
-    os.system('apt upgrade')
+    os.system('apt upgrade') 
+    print('\n')
     
      if menu == 2:
    print("Autualizando os repostitorio")
     os.system("apt update")
     os.system("apt upgrade")
     
-    print("instalado com sucesso")
-    
-    
-    
-    print("Instalando as dependicias")
-    
+
     os.system('apt install git')
     os.system("apt get install")
-    
-    print("Instalando o python")
+   
     
     os.system("apt-get install python")
     os.system("apt-get install python2")
     os.system("apt-get install python3")
-    
-    print("Instalado com sucesso")
     
     print('\n')
     
