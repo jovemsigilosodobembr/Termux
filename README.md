@@ -22,7 +22,7 @@ site:⏩ https://f-droid.org/ ⏪
 git clone https://github.com/jovemsigilosodobembr/Termux
 python3 setup.py
 ```
-
+--------------------------------------------------------------------------------
 <h3><p align="center">EMBREVE MAIS DESCRIÇÃO</p></h3>
 
 
