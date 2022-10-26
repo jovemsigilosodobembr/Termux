@@ -33,10 +33,10 @@ while menu != 7:
     menu = int(input(('''
     [ 1 ] Termux debian
     [ 2 ] Proprio termux
-    [ 3 ] Sqlmap 
-    [ 4 ] Zphisher 
-    [ 5 ] Banner
-    [ 6 ] Hasher
+    [ 3 ] vazio
+    [ 4 ] vazio 
+    [ 5 ] vazio
+    [ 6 ] vazio
     [ 7 ] Sair 
     
     Coloque a opção desejada: ''')))
@@ -56,30 +56,13 @@ while menu != 7:
     os.system("apt-get install python2")
     os.system("apt-get install python3")
     
-     print('\n')
+    print("Instalado com sucesso")
     
-    if menu == 2:
-     os.system('cls||clear')
-     os.system('gem install bundle')
-    if menu == 3:
-     os.system('cls||clear')
-     os.system('apt update && apt upgrade && pkg install python2 && pkg install git && git clone https://github.com/sqlmapproject/sqlmap')
-     print('\n')
-     print('Digite o comando a seguir: cd sqlmap')
-     print('python2 sqlmap.py')
-    if menu == 4:
-     os.system('cls||clear')
-     os.system('apt update && apt upgrade && apt install git php openssh curl -y && pkg install git && git clone https://github.com/htr-tech/zphisher')
-     print('\n')
-     print('Digite o comando a seguir: cd zphisher.sh')
-     print('chmod +x zphisher.sh') 
-     print('bash zphisher.sh')
+    print('\n')
+    
   
-     os.system('cls||clear')
-     os.system('apt update && apt upgrade && pkg install python2 && pkg install git && git clone https://github.com/ciku370/hasher')
-     print('\n')
-     print('Digites os comandos a seguir: cd hasher ')
-     print('python2 hash.py')
+  
+    
     elif menu == 7:
      print('Byee')
      time.sleep(2)
