@@ -44,6 +44,15 @@ while menu != 7:
     os.system("apt update")
     os.system("apt upgrade")
     
+     if menu == 2:
+   print("Autualizando os repostitorio")
+    os.system("apt update")
+    os.system("apt upgrade")
+    
+    print("instalado com sucesso")
+    
+    
+    
     print("Instalando as dependicias")
     
     os.system('apt install git')
