@@ -39,7 +39,8 @@ while menu != 7:
     [ 7 ] Sair 
     
     Coloque a opção desejada: ''')))
-   elif  menu == 1
+    
+    if menu == 1:
     os.system("apt update")
     
     os.system("apt upgrade")
