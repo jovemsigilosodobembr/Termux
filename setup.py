@@ -40,7 +40,7 @@ while menu != 7:
     
     Coloque a opção desejada: ''')))
     if menu == 1:
-   print("Autualizando os repostitorio")
+   print(Autualizando os repostitorio)
     os.system("apt update")
     os.system("apt upgrade")
     
